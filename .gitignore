@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# PyTorch
+*.pth
+*.pt
+checkpoints/
+best_model.pth
+final_model.pth
+
+# Data
+data/
+cifar-10-python.tar.gz
+
+# Images
+*.png
+*.jpg
+*.jpeg
+!sample_images/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
